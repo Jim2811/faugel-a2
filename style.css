@@ -12,10 +12,20 @@ body{
 .headings{
     font-family: "Noto Serif", serif;
 }
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+}
+.f16{
+    font-size: 16px;
+}
 .para{
     font-family: "Inter", sans-serif;
     font-size: 22px;
     color: rgba(0,0,0, 50%);
+}
+.clrw{
+    color: white;
 }
 .clr{
     color: rgba(0, 0, 0, 0.692);
@@ -59,4 +69,46 @@ nav{
 }
 .heroText h1{
     font-size: 65px;
+}
+.plansSec{
+    margin: 150px auto;
+    text-align: center;
+}
+.plans h2{
+    font-size: 50px;
+    padding: 6px;
+}
+.plans p{
+    padding: 10px 50px;
+}
+.products{
+    margin: 90px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.pCards{
+    margin-bottom: 20px;
+}
+.pDt{
+    padding: 20px 0;
+}
+.pDt p{
+    line-height: 35px;
+}
+.addCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #E95A08;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s;
+    margin: 0 auto;
+    width: 98%;
+}
+.addCart:hover{
+    background-color: #17aa04;
 }
