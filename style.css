@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Noto Serif", serif;
+font-family: "Inter", sans-serif;
+*/
+body{
+    background-color: #f5f8ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.headings{
+    font-family: "Noto Serif", serif;
+}
+.para{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    color: rgba(0,0,0, 50%);
+}
+.clr{
+    color: rgba(0, 0, 0, 0.692);
+}
+nav{
+    width: 1140px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu, .menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    font-family:"Inter" ;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu p {
+    display: flex;
+    justify-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
