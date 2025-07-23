@@ -143,3 +143,73 @@ nav{
 .quotes li{
     padding: 10px 0px;
 }
+.latestDeals{
+    margin: 100px auto;
+    text-align: center;
+}
+.dealData{
+    margin: 50px 0;
+}
+.dealData h2{
+    font-size: 50px;
+    padding: 20px 0;
+}
+.dealData p{
+    padding: 0 50px;
+}
+.dealsCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.dCard{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: invert(90%);
+    color: white;
+    height: 200px;
+    border-radius: 10px;
+}
+.shadow{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 10px;
+    inset: 0;
+    opacity: 0.4;
+    z-index: 0;
+}
+.dCardDet{
+    z-index: 15;
+    line-height: 20px;
+}
+.dCardDet h3{
+    font-size: 25px;
+    padding: 10px;
+}
+.dCardDet a{
+    color: white;
+    font-family: "Inter";
+}
+.c2{
+    background-image: url(assets/deal-ana.png);
+    grid-row-start: 2;
+}
+.bigCard{
+    background-image: url(assets/deal-zabo.png);
+    height: 100%;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.bigCard h3{
+    font-size: 40px;
+    padding: 20px;
+}
+.bigCard a{
+    font-size: 25px;
+}
