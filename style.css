@@ -20,6 +20,12 @@ body{
 .clr{
     color: rgba(0, 0, 0, 0.692);
 }
+.wd{
+    width: 1140px;
+}
+.clrOr{
+    color: #E95A08;
+}
 nav{
     width: 1140px;
     margin: 20px auto;
@@ -43,4 +49,14 @@ nav{
     justify-items: center;
     gap: 7px;
     cursor: pointer;
+}
+.hero{
+    display: flex;
+    width: 1140px;
+    margin: 120px auto;
+    justify-content: center;
+    align-items: last baseline;
+}
+.heroText h1{
+    font-size: 65px;
 }
