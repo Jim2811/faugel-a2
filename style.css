@@ -112,3 +112,34 @@ nav{
 .addCart:hover{
     background-color: #17aa04;
 }
+.plantLover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    gap: 60px;
+}
+.loverImg{
+    display: flex;
+    position: relative;
+}
+.trusted-badge{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: -130px;
+    left: 68%;
+}
+.Lover{
+    width: 540px;
+    padding-top: 30px;
+}
+.Lover h2{
+    font-size: 50px;
+}
+.quotes{
+    padding: 30px;
+}
+.quotes li{
+    padding: 10px 0px;
+}
