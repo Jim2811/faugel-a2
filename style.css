@@ -22,7 +22,7 @@ p{
 .para{
     font-family: "Inter", sans-serif;
     font-size: 22px;
-    color: rgba(0,0,0, 50%);
+    color: rgba(0, 0, 0, 0.527);
 }
 .clrw{
     color: white;
@@ -252,4 +252,43 @@ nav{
 }
 .btn:hover{
     background-color: #17aa04;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.footLogo{
+    width: 350px;
+}
+.footLogo img{
+    padding-bottom: 20px;
+}
+.fmn ul{
+    list-style: none;
+}
+.fmn ul li {
+    padding-bottom: 30px;
+    font-family: "Inter";
+    font-size: 18px;
+}
+.fmn ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.692);
+    transition: 0.3s;
+}
+.fmn ul li a:hover{
+    font-weight: bold;
+    color: black;
+}
+.footIcons img{
+    width: 28px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footIcons img:hover{
+    width: 25px;
 }
