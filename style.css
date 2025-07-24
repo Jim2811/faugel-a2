@@ -354,8 +354,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px auto;
-    gap: 60px;
+    margin: 7px auto;
+    gap: 20px;
 }
 .storeImg{
     width: 100%;
@@ -368,6 +368,37 @@ footer{
     padding-top: 30px;
 }
 .Lover h2{
+    font-size: 25px;
+}
+.latestDeals{
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+}
+.dealData h2{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.dealData p{
+    padding: 0 20px;
+}
+.dealsCards{
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    flex-direction: column;
+    gap: 20px;
+}
+.bigCard{
+    background-image: url(assets/deal-zabo.png);
+    height: 200px;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.bigCard h3{
+    font-size: 25px;
+    padding: 20px;
+}
+.bigCard a{
     font-size: 25px;
 }
 }
