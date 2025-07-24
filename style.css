@@ -213,3 +213,43 @@ nav{
 .bigCard a{
     font-size: 25px;
 }
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 533px;
+    width: 100%;
+    text-align: center;
+}
+.subDet h2{
+    color: white;
+    font-size: 40px;
+    padding: 30px 0px;
+}
+.subDet input{
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+.subDet input:focus{
+    border: none;
+    outline: none;
+}
+.frm{
+    width: 500px;
+    padding: 0 20px;
+    font-family:"Inter" ;
+}
+.btn{
+    width: 150px;
+    background-color: #E95A08;
+    color: white;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #17aa04;
+}
