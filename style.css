@@ -222,7 +222,9 @@ nav{
     background-position: center;
     background-size: cover;
     height: 533px;
-    /* width: 100%; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 .subDet h2{
@@ -298,12 +300,13 @@ footer{
     *{
         margin: 0;
         padding: 0;
+        overflow-x: hidden;
     }
     nav{
         display: flex;
         justify-content: space-between;
         margin: 24px auto ;
-        width: 80%;
+        width: 100%;
     }
     .wd{
         max-width: 90%;
@@ -313,10 +316,21 @@ footer{
   }
   .hero{
     flex-direction: column-reverse;
-    width: 300px;
-    margin: 120px auto;
+    width: 100%;
+    margin: 50px auto;
     justify-content: center;
     align-items: center;
+}
+.heroText{
+    width: 90%;
+    margin: 10px auto;
+}
+.navCart{
+    padding-right: 7px;
+}
+.logo img{
+    width: 50%;
+    padding-left: 10px;
 }
 .headings{
     font-size: 25px;
@@ -331,7 +345,7 @@ footer{
     font-size: 14px;
 }
 .plansSec{
-    /* margin: 150px auto; */
+    margin: 0px auto;
     text-align: center;
     width: 100%;
 }
@@ -376,6 +390,10 @@ footer{
     width: 100%;
     text-align: center;
 }
+.quotes{
+    font-size: 12px;
+    list-style: circle;
+}
 .dealData h2{
     font-size: 25px;
     padding: 10px 0;
@@ -403,8 +421,8 @@ footer{
     font-size: 25px;
 }
 .subscribe{
-    height: 400px;
-}
+    height: 350px;
+ }
 .subDet h2{
     color: white;
     font-size: 25px;
@@ -426,14 +444,15 @@ footer{
     gap: 30px;
 }
 .footIcons img{
-    width: 28px;
-    padding: 0 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}.footIcons img{
     width: 25px;
     padding-right: 10;
     cursor: pointer;
     transition: 0.3s;
+}
+.footLogo > img{
+    width: 30%;
+}
+.footLogo .para{
+    width: 80%;
 }
 }
