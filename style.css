@@ -292,3 +292,72 @@ footer{
 .footIcons img:hover{
     width: 25px;
 }
+/* responsive design started */
+@media (min-width: 320px) and (max-width: 767px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 24px auto ;
+        width: 80%;
+    }
+    .wd{
+        max-width: 90%;
+    }
+  .menu ul{
+    display: none;
+  }
+  .hero{
+    flex-direction: column-reverse;
+    width: 300px;
+    margin: 120px auto;
+    justify-content: center;
+    align-items: center;
+}
+.headings{
+    font-size: 25px;
+}
+.heroText h1{
+    font-size: 35px;
+}
+.heroImg img{
+    width: 100%;
+}
+.para{
+    font-size: 14px;
+}
+.plansSec{
+    /* margin: 150px auto; */
+    text-align: center;
+    width: 100%;
+}
+.plans h2{
+    font-size: 25px;
+    padding: 6px;
+}
+.products{
+    margin: 90px auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.pCards img{
+    width: 100%;
+}
+.pDt p{
+    font-size: 17px;
+}
+.plantLover{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    gap: 60px;
+}
+.storeImg{
+    width: 100%;
+}
+}
